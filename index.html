@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-Signup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style2.css">
+
+</head>
+
+<body>
+    <div class="main-div">
+        <h1 id="logo">Facebook</h1>
+        <form id="signup">
+            <div class="signup-form">
+                <div class="form-heading">
+                    <h2>Create a new Account</h2>
+                    <p>It's Quick and Easy</p>
+                </div>
+                <div class="input-fields">
+                    <div class="half-width">
+                        <input type="text" placeholder="First Name" name="fname">
+                    </div>
+                    <div class="half-width">
+                        <input type="text" placeholder="Last Name" name="sname">
+                    </div>
+                    <div class="full-width">
+                        <input type="text" placeholder=" mobile number" name="number" >
+                    </div>
+                    <div class="full-width">
+                        <input type="password" placeholder="New Password "name="password" >
+                    </div>
+                    <label> Date of Birth</label>
+                    <div class="dob-div">
+                        <div class="quat-width">
+                            <select name="day">
+                                <option value="">choose</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="13">13</option>
+                            </select>
+                        </div>
+                        <div class="quat-width">
+                            <select name="month">
+                                <option value="">choose</option>
+                                <option value="jan">jan</option>
+                                <option value="feb">feb</option>
+                                <option value="mar">mar</option>
+                                <option value="apr">apr</option>
+                            </select>
+                        </div>
+                        <div class="quat-width">
+                            <select name="year">
+                                <option value="" >choose</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                                <option value="2002">2002</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label> Gender </label>
+                    <div class="dob-div">
+                        <div class="quat-width">
+                            <div class="radio-btn">
+                                <label class="radio-label">Female</label>
+                                <input type="radio" class="radio-input "name="gender">
+                            </div>
+                        </div>
+                        <div class="quat-width">
+                            <div class="radio-btn">
+                                <label class="radio-label">Male</label>
+                                <input type="radio" class="radio-input"name="gender">
+                            </div>
+                        </div>
+                        <div class="quat-width">
+                            <div class="radio-btn">
+                                <label class="radio-label">Custom</label>
+                                <input type="radio" class="radio-input "name="gender">
+
+                            </div>
+                        </div>
+                    </div>
+                    <small>people who use are service may have uploaded your contact information to Facebook. <a
+                            href="https://www.meta.com"> Learn
+                            more</a>
+                        </small>
+                    <small>By clicking Sign Up, you agree to our Terms, Data Policy, and Cookies Policy. You may receive
+                        SMS notifications from us and can opt out at any time.</small>
+                    <div class="button-div">
+                        <button class="signup-btn">Sign up</button>
+                    </div>
+                    <div class="account-div">
+                        <a href="https://www.facebook.com/login/">Alredy hava an Account?</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+
+<script src="/facebook-Signup/js/validation.js"></script>
+
+
+</html>
